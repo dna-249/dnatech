@@ -69,4 +69,4 @@ const Home = () => {
   )
 }
 
-export default Homess
+export default Home
