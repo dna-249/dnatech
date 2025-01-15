@@ -58,7 +58,14 @@ body{
     width: 250px;
     height: 400px;
     flex-direction: row;
+
     border-radius: 10px;
     margin: auto;
 
+}
+
+@media all and ( width < 400px){
+ body{
+    background-color:blue;
+ }
 }
