@@ -15,12 +15,12 @@ const Home = () => {
 <img  src='/dnatech.png'  width={100} height={40}/>
 </div>
 <div>
-{bg5? (<div><img  onClick={()=>setBg5(false)} style={{borderRadius:"5px"}} src="DNATECH LOGO-1.jpg" width={300} height={350} alt="" /> </div>
+{bg5? (<div className="full2"><img  onClick={()=>setBg5(false)} style={{borderRadius:"5px"}} src="DNATECH LOGO-1.jpg" width={300} height={350} alt="" /> </div>
         ):(<div className='full2'><img  onClick={()=>setBg5(true)}  style={{position:"static"}}  src="DNATECH LOGO-1.jpg" width={500} height={600} alt="" /> </div>)}  
    
 
 </div>
-  <div >
+  <div className="center" >
     <h3   className='center' 
     style={{marginTop:"10px",fontStyle:"italic",color:' rgb(61, 31, 144)', fontWeight:'bolder'}}> SERVICES</h3>
   <div className="home">
