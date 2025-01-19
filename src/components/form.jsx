@@ -25,7 +25,7 @@ const Form = ({digit}) => {
         </div>
      <div>
         <h4>Program Duration: </h4>
-        1st February to 30th March
+        3rd February to 30th March
      </div>
 
      <div>
@@ -37,7 +37,7 @@ const Form = ({digit}) => {
     </div >
     <div className="center text">
        <h4> Contact:</h4>
-        Email:dnatech@gmail.com <br/>
+        Email:danamonuraa@gmail.com <br/>
         Whatsapp:08085943776<br/>
         Tel:07037638761
     </div>
