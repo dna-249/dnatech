@@ -27,7 +27,7 @@ body{
 .form h4{
     font-weight:border;
      color: rgba(0, 0, 0, 0.553);
-     font-style: italic;
+     
      
     
  }
@@ -98,20 +98,22 @@ body{
 .form div{
     height:fit-content;
 }
-.form button{
+.form a{
     margin-top:10px;
     background-color:green;
     color:white;
     border-radius:5px;
     padding:5px;
+    text-decoration:none;
 }
-.form button:hover{
+.form a:hover{
     margin-top:10px;
     background-color:rgb(62, 116, 62);
     color:white;
     border-radius:5px;
     padding:7px;
     outline: none;
+    text-decoration:none;
 }
 .text{
     text-align:center;
