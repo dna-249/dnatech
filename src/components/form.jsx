@@ -11,9 +11,9 @@ const Form = ({digit}) => {
                  ["Photoshop","CorelDraw"]
                 ]
     const course =["Programming FrontEnd","Advanced FrontEnd","Programming Backend","Graphic Design"]
-    const links =[["https://chat.whasapp.com/L5PGgPMXXGU8c5tOfDoWzN"],
-                  ["https://chat.whatsapp.com/l15fKBRl3vLJHlk78nefKz"],
-                  ["https://chat.whatsapp.com/BfG63WhDB5LtRBy5Cozn"],
+    const links =[["https://chat.whatsapp.com/BHP3h9o1FmWBABYe5DJcY3"],
+                  ["https://chat.whatsapp.com/KEc2qJi6uUf4W4Fmq9TyAu"],
+                  ["https://chat.whatsapp.com/DQ4AUuEw2njGAJmoR1pyzD"],
                   ["https://chat.whatsapp.com/C65zUdEOFHMJ4lTMAmRNAt"]]
   return (
     <> 
