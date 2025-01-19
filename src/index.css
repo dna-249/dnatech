@@ -54,6 +54,20 @@ body{
     background-color:#fff;
    
 }
+
+.home ul:hover{
+    
+    border:1px solid rgba(112, 114, 112, 0.208);
+    padding:5px;
+    border-radius:5px;
+    height:100px;
+    width:300px;
+    color:blue;
+    list-style: none;
+    background-color:aliceblue;
+   
+}
+
 .form ul{
     
     border:1px solid rgba(112, 114, 112, 0.208);
