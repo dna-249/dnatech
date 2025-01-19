@@ -7,10 +7,14 @@ const Form = ({digit}) => {
 
     const data =[["HTML","CSS","JavaScript"],
                  ["ReactJs","NextJs","Tailwind CSS"],
-                 ["Python","FastApi","FlaskApi","RestApi"]
+                 ["Python","FastApi","FlaskApi","RestApi"],
+                 ["Photoshop","CorelDraw"]
                 ]
     const course =["Programming FrontEnd","Advanced FrontEnd","Programming Backend","Graphic Design"]
-    
+    const links =[["https://chat.whasapp.com/L5PGgPMXXGU8c5tOfDoWzN"],
+                  ["https://chat.whatsapp.com/l15fKBRl3vLJHlk78nefKz"],
+                  ["https://chat.whatsapp.com/BfG63WhDB5LtRBy5Cozn"],
+                  ["https://chat.whatsapp.com/C65zUdEOFHMJ4lTMAmRNAt"]]
   return (
     <> 
     <div className="center form">
@@ -28,7 +32,7 @@ const Form = ({digit}) => {
      <h4>Location:<span> Online/Onsite:</span> </h4> 
       Efab City Estate, Lifecamp, Abuja.    
      </div>
-     <div className="center"><Link to='/apply'>Reserve Your Ticket</Link></div>
+     <div className="center"><a href={links[digit]}> Whatsapp Us Here</a></div>
       
     </div >
     <div className="center text">

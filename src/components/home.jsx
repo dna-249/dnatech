@@ -26,7 +26,10 @@ const Home = () => {
     setDigit(2)
     setBg6(false)
   }
-  
+  const name3 = (params) => {
+    setDigit(3)
+    setBg6(false)
+  }
   
   return (
     <>
@@ -80,7 +83,7 @@ const Home = () => {
     {bg4? (<div><img  onClick={()=>setBg4(false)} className='img' src="Capture4.PNG" width={150} height={100} alt="" /> </div>
         ):(<div className='full'><img  onClick={()=>setBg4(true)}  style={{position:"static"}} className='img' src="Capture4.PNG" width={1500} height={400} alt="" /> </div>)}  
    
-    <ul>
+    <ul onClick={()=>name3()}>
       <li >CorelDrew</li>
       <li >Photoshop</li>
     </ul>
