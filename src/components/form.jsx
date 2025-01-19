@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 
 
@@ -27,7 +28,7 @@ const Form = ({digit}) => {
      <h4>Location:<span> Online/Onsite:</span> </h4> 
       Efab City Estate, Lifecamp, Abuja.    
      </div>
-     <div className="center"><button>Reserve Your Ticket</button></div>
+     <div className="center"><Link to='/apply'>Reserve Your Ticket</Link></div>
       
     </div >
     <div className="center text">

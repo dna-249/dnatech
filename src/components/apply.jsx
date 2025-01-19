@@ -9,7 +9,7 @@ const Apply = () => {
     const [input4, setInput4] = useState('')
     const [input5, setInput5] = useState('')
     const [inputs, setInputs] = useState([''])
-    const [data, setData] = useState('')
+    const [data, setData] = useState([''])
 
 
 
@@ -20,8 +20,8 @@ const Apply = () => {
     const handleRequest = (params) => {
         console.log(input1)
       setInputs(()=>[input2,input3,input4,input5])
-      axios.post(`http://localhost:3000/api/users`, {name:input2,email:input5}).then(res => {alert('ok'); console.log(res);setData(()=>res.data)} ).catch(err => {console.log(err)})
-      axios.get(`http://localhost:3000/api/users`).then(res => {alert('ok'); console.log(res);;setData(()=>res.data)} ).catch(err => console.log(err))
+      axios.post(`http://localhost:3000/api/users`, {name:input2,email:input5}).then(res => {alert('ok'); console.log(res);setData(()=>res.data)} ).catch(err => {alert("connention fail");console.log(err)})
+      axios.get(`http://localhost:3000/api/users`).then(res => {alert('ok'); console.log(res);setData(()=>res.data)} ).catch(err => console.log(err))
  
     }
     
@@ -36,6 +36,7 @@ const Apply = () => {
         <div>Phone:<input onChange={(e)=>setInput4(e.target.value)} type='number'placeholder='phone...'/></div>
         <div>Email:<input onChange={(e)=>setInput5(e.target.value)} type='email'placeholder='active email...'/></div>
          <button onClick={()=>handleRequest()}>summit</button>
+         {data.map((data, index)=> <ul key={index}> <li>{data.name}{data.email}</li></ul>)}
     </div>
     </div>
   )
